@@ -4,17 +4,6 @@ import (
 	"net/http"
 )
 
-type api struct {
-	addr string
-}
-
-func (a *api) createUsersHandler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("User created"))
-}
-func (a *api) getUsersHandler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("here are all our users"))
-}
-
 // func (s *api) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 // 	switch r.Method {
 // 	case http.MethodGet:
