@@ -22,6 +22,8 @@
 .env
 
 # IDE/Editor specific files
+ 
+.DS_Store
 .idea/
 .vscode/
 *.swp
